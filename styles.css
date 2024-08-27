@@ -1,0 +1,162 @@
+/* Estilos Básicos */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    color: hwb(315 2% 97%);
+    background-color: hsl(49, 62%, 70%);
+}
+
+header {
+    background: #c438ac;
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+header .container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+section {
+    padding: 2rem 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1rem;
+}
+
+
+/* la primera foto en forma redondo  */
+.profile-img {
+    width: 150px;
+    height: 150px;
+   
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+/* seccion del tranajo1 */
+.gallery-trabajo1 {
+    flex: 1 1 calc(33.333% - 1rem);
+    box-sizing: border-box;
+    background: #b84896;
+    padding: 1rem;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px #98eb39b9;
+}
+/* donde ajustamos la img */
+.gallery-trabajo1 img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form label {
+    margin-bottom: 0.5rem;
+}
+
+form input,
+form textarea {
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+/* es el listaDO DE AmIGOS */
+table{
+    border: 1px solid black;
+    border-collapse: separate;
+    border-spacing: 5px;
+    width: 1150px;
+    height: auto;
+}
+tr.color{
+    background-color: rgb(167, 33, 133);
+}
+th,td{
+    border: 1px solid black;
+    
+    }
+
+
+button {
+    padding: 0.7rem;
+    border: none;
+    border-radius: 5px;
+    background: hsl(313, 59%, 45%);
+    color: #fff;
+    cursor: pointer;
+}
+
+button:hover {
+    background: hsl(313, 70%, 64%);
+}
+
+.social-links {
+    margin-top: 1rem;
+}
+
+.social-links a {
+    margin-right: 1rem;
+    color: #333;
+    text-decoration: none;
+}
+
+.social-links a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    background: hsl(318, 55%, 58%);
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+/* Enlace de WhatsApp */
+.whatsapp-link {
+    display: inline-block;
+    margin-top: 1rem;
+    padding: 0.7rem 1.5rem;
+    background: #25D366;
+    /* Color de WhatsApp */
+    color: #fff;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
